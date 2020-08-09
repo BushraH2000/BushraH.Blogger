@@ -40,27 +40,36 @@
        .nav-i{margin-bottom:-1px}
 	   .nav-l{display:block;padding:.5rem 1rem}
 	   .nav-l{border:1px solid transparent;border-top-left-radius:4px;border-top-right-radius:4px; color: grey ; }
-	   
+	   .navbar-collaps{display:flex!important;flex-basis:auto}
+	   .navbar-collaps{flex-basis:100%;flex-grow:1;align-items:center}
+	   @media (max-width:991.98px){.navbar-expan-lg{flex-flow:row nowrap;justify-content:flex-start}.navbar-expan-lg .navbar-nav{flex-direction:row}
+.navbar-expan-lg .navbar-nav .dropdown-menu{position:absolute}.navbar-expan-lg .navbar-nav .nav-link{padding-right:.5rem;padding-right:.5rem}
+.navbar-expan-lg>.container,.navbar-expand-lg>.container-fluid{flex-wrap:nowrap}.navbar-expan-lg .navbar-collapse{display:flex!important;flex-basis:auto}
+.navbar-expan-lg .navbar-toggler{display:none}}
+
+@media (min-width:992px){.navbar-expan-lg{flex-flow:row nowrap;justify-content:flex-start}.navbar-expan-lg .navbar-nav{flex-direction:row}
+.navbar-expan-lg .navbar-nav .dropdown-menu{position:absolute}.navbar-expan-lg .navbar-nav .nav-link{padding-right:.5rem;padding-right:.5rem}
+.navbar-expan-lg>.container,.navbar-expand-lg>.container-fluid{flex-wrap:nowrap}.navbar-expan-lg .navbar-collapse{display:flex!important;flex-basis:auto}
+.navbar-expan-lg }}
+
     </style>
 
 </head>
 
 <body>
 
-<nav  class="navbar p-1 navbar-expand-lg navbar-light shadow-sm py-2">
-    <div class="container-fluid">
-        <a class="navbar-brand title-brand" href="" title="Mylogo">
+<nav  class=" navbar-expan-lg">
+    
+        
+
+    
+
+        <div class="navbar" >
+		<div class="container-fluid">
+        <a href="" title="Mylogo">
             <img class="dark-logo nav-logoo" src="
             https://cdn0.iconfinder.com/data/icons/data-science-1-3/66/61-512.png" alt="BH">
         </a>
-        
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="  navbar-collapse" >
             <ul class="navbar-nav ">
                                     <li >
                         <a class="nav-l font-h" title="مدونتي"
