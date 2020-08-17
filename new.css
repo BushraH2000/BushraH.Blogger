@@ -136,7 +136,8 @@ font-weight:400}
 
 
 
- @media (max-width:991.98px){  margin: 2cm 4cm 3cm 10cm;}
+ @media (max-width:991.98px){  margin: margin: 0 auto;
+width: 600px}
 
 
 	.nav{display:flex;flex-wrap:wrap;padding-right:0;margin-bottom:0;list-style:none}
