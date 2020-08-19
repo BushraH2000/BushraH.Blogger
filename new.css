@@ -94,7 +94,11 @@ font-weight:400}
 
 
 
-
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 @media (min-width:576px){.col-sm{flex-basis:0%;flex-grow:1;max-width:100%}
